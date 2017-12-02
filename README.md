@@ -1,9 +1,10 @@
-# node-elasticsearch
+# Node Elasticsearch
 
 ## Prerequisites.
-1. install the **nodejs** in your system globally (https://nodejs.org/en/)
-2. open the terminal/cmd on the root folder
-3. run the command: 
+1. Install **nodejs** in your system globally (https://nodejs.org/en/)
+2. Install **elasticsearch** in your system globally (https://www.elastic.co/downloads/elasticsearch)
+3. Open the terminal/cmd on the root folder
+3. Run the command: 
 
 ```bash
 npm install
@@ -24,21 +25,19 @@ curl -X GET 'http://localhost:9200'
 ```
 
 ### Insert data to elasticsearch
-1. should be on root folder
-2. run this command: 
+1. Should be on root folder
+2. Run this command: 
 
 ```bash
 node main
 ```
 
-3. output can see to the terminal
-
-### Search a query to elasticsearch
-1. should be on root folder
-2. run this command: 
+### Execute a search query to elasticsearch
+1. Should be on root folder
+2. Run this command: 
 
 ```bash
 node search
 ```
 
-3. output can see to the terminal
+**Done!**
