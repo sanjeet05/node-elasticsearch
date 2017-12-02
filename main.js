@@ -1,27 +1,17 @@
 var async = require("async"),
   request = require("request"),
   _ = require("lodash"),
-  elasticsearch = require('elasticsearch');
+  elasticsearch = require('elasticsearch'),
+  constants = require('./constants');
 
-var es_host = "http://localhost:9200/";
+var es_host = constants.ES_HOST;
 
 var client = new elasticsearch.Client({
   host: es_host,
   // log: 'trace'
 });
 
-var data = [
-  {
-    "name": "Sanjeet",
-    "age": 26
-  }, {
-    "name": "John",
-    "age": 35
-  }, {
-    "name": "Alex",
-    "age": 20
-  }
-];
+var data = constants.USER_LIST;
 
 function main() {
 
