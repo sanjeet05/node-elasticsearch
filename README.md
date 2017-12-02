@@ -10,7 +10,7 @@
 npm install
 ```
 
-### Start/Stop elasticsearch services
+## Start/Stop elasticsearch services
 
 ```bash
 1. sudo service elasticsearch start
@@ -18,13 +18,13 @@ npm install
 3. sudo service elasticsearch stop
 ```
 
-### See the current running cluster and node
+## See the current running cluster and node
 
 ```bash
 curl -X GET 'http://localhost:9200'
 ```
 
-### Insert data to elasticsearch
+## Insert data to elasticsearch
 1. Should be on root folder
 2. Run this command: 
 
@@ -32,7 +32,7 @@ curl -X GET 'http://localhost:9200'
 node main
 ```
 
-### Execute a search query to elasticsearch
+## Execute a search query to elasticsearch
 1. Should be on root folder
 2. Run this command: 
 
